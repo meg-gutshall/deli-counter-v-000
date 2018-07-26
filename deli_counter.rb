@@ -15,6 +15,6 @@ def line(katz_deli)
         puts "Currently serving #{katz_deli.shift}."
       end
     end
-    puts "The line is currently: 1. " + katz_deli.join(" ")
+    puts "The line is currently:" + katz_deli.join(" ")
   end
 end
