@@ -10,7 +10,7 @@ def line(katz_deli)
         katz_deli << " #{index + 1}. #{name}"
       end
     end
-    puts "The line is currently:" + katz_deli
+    puts "The line is currently: #{katz_deli}"
     def now_serving(katz_deli)
       
     end
