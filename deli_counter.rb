@@ -10,8 +10,9 @@ def line(katz_deli)
       end
     end
     puts "The line is currently:" + katz_deli.join(" ")
-    def now_serving(katz_deli)
-      if katz_deli.size == 0
+    next = katz_deli.shift
+    def now_serving(next)
+      if next = nil
         puts "There is nobody waiting to be served!"
       else
         
