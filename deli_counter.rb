@@ -7,7 +7,6 @@ def line(katz_deli)
     def take_a_number(katz_deli, new_customer)
       katz_deli << new_customer
       puts "Welcome, #{new_customer}. You are number #{katz_deli.size} in line."
-      katz_deli_line = " #{katz_deli.size}. #{new_customer}"
     end
     def now_serving(katz_deli)
       if katz_deli.size == 0
@@ -16,6 +15,6 @@ def line(katz_deli)
         puts "Currently serving #{katz_deli.shift}."
       end
     end
-    puts "The line is currently:" + katz_deli_line.join(" ")
+    puts "The line is currently: 1. " + katz_deli.join(" ")
   end
 end
