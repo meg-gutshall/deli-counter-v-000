@@ -7,7 +7,7 @@ def line(katz_deli)
     def take_a_number(katz_deli, new_customer)
       
     end
-    puts "The line is currently: "
+    puts "The line is currently: " + katz_deli
 def now_serving(katz_deli)
   
 end
