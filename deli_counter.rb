@@ -6,7 +6,7 @@ def line(katz_deli)
   elsif
     def take_a_number(katz_deli, new_customer)
       katz_deli << new_customer
-      puts "Welcome, #{new_customer}. You are number 1 in line."
+      puts "Welcome, #{new_customer}. You are number #{katz_deli.size} in line."
     end
     def now_serving(katz_deli)
       if katz_deli.size == 0
