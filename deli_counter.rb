@@ -12,7 +12,7 @@ def line(katz_deli)
     puts "The line is currently:" + katz_deli.join(" ")
     next = katz_deli.shift
     def now_serving(next)
-      if next == nil
+      if katz_deli.size == 0
         puts "There is nobody waiting to be served!"
       else
         
