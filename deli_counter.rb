@@ -8,6 +8,7 @@ def line(katz_deli)
       new_customer.each_with_index do |name, index|
         puts "Welcome #{name}. You are number #{inedx + 1} in line."
         katz_deli << " #{index + 1}. #{name}"
+      end
     end
     puts "The line is currently:" + katz_deli
 def now_serving(katz_deli)
