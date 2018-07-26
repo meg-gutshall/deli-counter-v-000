@@ -11,9 +11,8 @@ def line(katz_deli)
       end
     end
     puts "The line is currently:" + katz_deli
-def now_serving(katz_deli)
-  
-end
-
+    def now_serving(katz_deli)
+      
+    end
   end
 end
