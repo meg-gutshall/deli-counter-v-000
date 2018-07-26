@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   elsif
     def take_a_number(katz_deli, new_customer)
-      new_customer.each_with_index do |name, index|
+      new_customer.each do |name|
         puts "Welcome #{name}. You are number #{katz_deli.size} in line."
         katz_deli << " #{katz_deli.size}. #{name}"
       end
