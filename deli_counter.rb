@@ -10,7 +10,6 @@ def line(katz_deli)
         katz_deli.prepend(index.to_i + 1 + ". ")
       end
     end
-    
     puts "The line is currently:" + katz_deli.join(" ")
     def now_serving(katz_deli)
       
