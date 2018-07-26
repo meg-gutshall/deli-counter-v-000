@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   elsif
     def take_a_number(katz_deli, new_customer)
-      puts "Welcome, #{new_customer}. You are number #{index.to_i + 1} in line."
+      puts "Welcome, #{new_customer}. You are number 1 in line."
     end
     def now_serving(katz_deli)
       if katz_deli.size == 0
