@@ -4,8 +4,8 @@ def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
   elsif
-    def take_a_number(katz_deli, new_customer)
-      new_customer.each do |name|
+    def take_a_number(katz_deli, other_deli)
+      other_deli.each do |name|
         puts "Welcome #{name}. You are number #{katz_deli.size} in line."
         
       end
