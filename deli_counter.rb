@@ -9,7 +9,7 @@ def line(katz_deli)
         puts "Welcome, #{name}. You are number #{index.to_i + 1} in line."
       end
     end
-    katz_deli.prepend(index.to_i + 1 ". ")
+    katz_deli.prepend(index.to_i + 1 + ". ")
     puts "The line is currently:" + katz_deli.join(" ")
     def now_serving(katz_deli)
       
