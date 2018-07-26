@@ -9,7 +9,6 @@ def line(katz_deli)
         puts "Welcome, #{name}. You are number #{index.to_i + 1} in line."
       end
     end
-    puts "The line is currently:" + katz_deli.join(" ")
     def now_serving(katz_deli)
       if katz_deli.size == 0
         puts "There is nobody waiting to be served!"
@@ -17,5 +16,6 @@ def line(katz_deli)
         
       end
     end
+    puts "The line is currently:" + katz_deli.join(" ")
   end
 end
