@@ -5,6 +5,9 @@ def line(katz_deli)
     puts "The line is currently empty."
   elsif
     def take_a_number(katz_deli, new_customer)
+      new_customer.each_with_index do |name, index|
+        puts "Welcome, #{name}. You are number #{index.to_i + 1} in line."
+      end
     end
     katz_deli.prepend(index.to_i + 1 ". ")
     puts "The line is currently:" + katz_deli.join(" ")
