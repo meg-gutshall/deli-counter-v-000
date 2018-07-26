@@ -8,7 +8,7 @@ def line(katz_deli)
       new_customer.each do |name|
         puts "Welcome #{name}. You are number #{katz_deli.size} in line."
       end
-      katz_deli.push(" #{katz_deli.size}. #{name}")
+      katz_deli = katz_deli << " #{katz_deli.size}. #{name}"
     end
     puts "The line is currently:" + katz_deli.join(" ")
     def now_serving(katz_deli)
