@@ -6,8 +6,8 @@ def line(katz_deli)
   elsif
     def take_a_number(katz_deli, new_customer)
       new_customer.each_with_index do |name, index|
-        puts "Welcome #{name}. You are number #{index.to_i + 1} in line."
-        katz_deli << " #{index + 1}. #{name}"
+        puts "Welcome #{name}. You are number #{katz_deli.size} in line."
+        katz_deli << " #{katz_deli.size}. #{name}"
       end
     end
     puts "The line is currently:" + katz_deli.join(" ")
